@@ -38,7 +38,7 @@ $(function () {
     $('#nav-3').addClass('active');
   }
 
-  if (/doctor/.test(loc)) {
+  if (/doktor/.test(loc)) {
     $('#nav-4').addClass('active');
   }
 
