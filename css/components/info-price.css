@@ -1,0 +1,38 @@
+.info-price {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.info-price__content {
+  overflow-x: scroll;
+}
+@media (max-width: 600px) {
+  .info-price__content table {
+    width: 140%;
+  }
+}
+@media (max-width: 420px) {
+  .info-price__content table {
+    width: 180%;
+  }
+}
+.info-price__content table p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  cursor: default;
+  color: #000;
+  background: #fff;
+  opacity: 0.4;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .info-price__content table p {
+    font-size: 14px;
+  }
+}
+.info-price__content table td {
+  vertical-align: middle;
+  padding: 10px;
+}
+.info-price__table-wrapper {
+  width: 100%;
+}
