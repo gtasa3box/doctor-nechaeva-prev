@@ -689,8 +689,8 @@ body.hidden {
   object-fit: contain;
 }
 .intro__elem_plus img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 @media (max-width: 980px) {
   .intro__elem_plus {
